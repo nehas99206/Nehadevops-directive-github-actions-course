@@ -1,7 +1,7 @@
 name: step_learn
 on:
   workflow_dispatch
-job:
+jobs:
 	saying_hello:
 	steps:
-		run: echo "Hey Neha"
+		-run: echo "Hey Neha"
