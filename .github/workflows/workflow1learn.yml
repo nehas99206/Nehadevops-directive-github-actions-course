@@ -4,5 +4,5 @@ on:
 jobs:
    saying_hello:
    runs-on:Ubuntu
-   steps:
-      run: print("Hey Bud")
+       steps:
+       run: print("Hey Bud")
