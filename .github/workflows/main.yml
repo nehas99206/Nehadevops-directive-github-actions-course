@@ -1,0 +1,7 @@
+name: step_learn
+on:
+  workflow_dispatch
+job:
+	saying_hello:
+	steps:
+		run: echo "Hey Neha"
