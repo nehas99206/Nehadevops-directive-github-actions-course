@@ -1,7 +1,10 @@
-name: step_learn
+name: steplearn
+
 on:
-  workflow_dispatch
-job:
-	saying_hello:
-	steps:
-		run: echo "Hey Neha"
+ workflow_dispatch: 
+
+jobs:
+ test1:
+  runs-on: ubuntu-24.04
+  steps:
+   - run: echo "Hey finally"
