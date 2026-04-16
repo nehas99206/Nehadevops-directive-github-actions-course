@@ -2,7 +2,7 @@ name: step_learn
 on:
   workflow_dispatch
 jobs:
-	saying_hello:
-  runs on: python
-	steps:
-		run: print("Hey Bud")
+   saying_hello:
+   runs-on:
+   steps:
+      run: print("Hey Bud")
