@@ -3,6 +3,6 @@ on:
   workflow_dispatch
 jobs:
    saying_hello:
-   runs-on:
+   runs-on:Ubuntu
    steps:
       run: print("Hey Bud")
