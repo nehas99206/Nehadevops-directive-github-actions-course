@@ -5,4 +5,4 @@ jobs:
 	saying_hello:
   runs on: python
 	steps:
-		run: print("Hey Bud"
+		run: print("Hey Bud")
